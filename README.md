@@ -2,15 +2,24 @@
 Theme wordpress de base
 
 ## Instalation
-Pour faire fonctionner le theme, il faut bien évidement le cloner dans le dossier `theme` de Worpdress, avoir Node.js d'installer et gulp.js. Il suffit ensuite de lancer les commanders suivantes
+Pour faire fonctionner le theme, il faut bien évidement le cloner dans le dossier `theme` de Worpdress:
+    
+    $ git clone git@github.com:francoiscoron/Starter-Wordpress.git nom-du-theme
+
+Il faut également avoir Node.js d'installer et gulp.js. 
+    
+• [gulp.js](http://gulpjs.com/)
+• [node.js](http://nodejs.org/)
+    
+Il suffit ensuite de lancer les commandes suivantes
     
     $ npm i -D
 
-Permet d'installer les packages se trouvant dans le fichier `package.json`.
+*Permet d'installer les packages se trouvant dans le fichier `package.json`.*
     
     $ gulp server
 
-Lance un serveur et écoutes les changements.
+*Lance un serveur et écoutes les changements.*
 
 ## Tâches
 
