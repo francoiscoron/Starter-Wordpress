@@ -6,10 +6,9 @@ Pour faire fonctionner le theme, il faut bien évidement le cloner dans le dossi
     
     $ git clone git@github.com:francoiscoron/Starter-Wordpress.git nom-du-theme
 
-Il faut également avoir Node.js d'installer et gulp.js. 
+Une fois [Node.js](http://nodejs.org/) d'installer et exécuter la commande suivante pour installer **Gulp**. 
     
-* [gulp.js](http://gulpjs.com/)
-* [node.js](http://nodejs.org/)
+    $ npm install --global gulp
 
     
 Il suffit ensuite de lancer les commandes suivantes
