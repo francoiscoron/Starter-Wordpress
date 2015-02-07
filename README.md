@@ -33,4 +33,4 @@ Il suffit ensuite de lancer les commandes suivantes
 * **gulp image** : Parcours le dossier `img` qui se trouve dans `assets` et optimise les images.
 **ImageMagick doit être installer sur la machine**
 
-5.  **gulp script** : Minifie les fichiers `.js` et les regroupes dans un fichier `.min.js`
+* **gulp script** : Minifie les fichiers `.js` et les regroupes dans un fichier `.min.js`
