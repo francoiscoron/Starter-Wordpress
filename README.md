@@ -9,6 +9,7 @@ Pour faire fonctionner le theme, il faut bien évidement le cloner dans le dossi
 Il faut également avoir Node.js d'installer et gulp.js. 
     
 • [gulp.js](http://gulpjs.com/)
+
 • [node.js](http://nodejs.org/)
     
 Il suffit ensuite de lancer les commandes suivantes
