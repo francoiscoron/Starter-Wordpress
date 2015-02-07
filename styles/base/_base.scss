@@ -1,0 +1,38 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    outline: none;
+}
+
+html {
+  height: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+    height: 100%;
+    font-family: $base-font;
+    font-size: 100%;
+    line-height: $base-line-height;
+    color: $text-color;
+
+    @media #{$small-breakpoint} {
+      font-size: 90%;
+    }
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+
+  &:visited {
+    color: darken($link-color, 10%);
+  }
+
+  &:hover, &:visited:hover {
+    color: darken($link-color, 10%);
+    text-decoration: underline;
+  }
+}

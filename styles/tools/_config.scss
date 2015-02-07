@@ -1,0 +1,31 @@
+// WORDPRESS THEME
+$theme_name: "Nom du theme";
+$theme_uri: "#";
+$theme_description: "description du theme";
+$theme_version: "1.0";
+$theme_author: "auteur du theme";
+$theme_author_uri: "#";
+$theme_license: "GPL";
+$theme_tags: "responsive-layout, post-formats";
+
+// BASE
+$base-font: 'Merriweather',sans-serif;
+$heading-font: 'Helvetica Neue', sans-serif;
+$base-line-height: 1.5;
+
+// BRAND
+$brand-primary-color: #E94E77;
+$brand-second-color: #FF9900;
+
+// COLORS
+$link-color: #E94E77;
+$text-color: #424242;
+$heading-color: #111;
+
+// RESPONSIVE MINIMAL GRID
+$site-width: 980px;
+$grid-columns: 12;
+$grid-max-width: 65em;
+
+// Breakpoints
+$small-breakpoint: "only screen and (max-width: 45em)";
